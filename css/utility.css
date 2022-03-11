@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+  width:80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.fl-l {
+  float: left;
+}
+
+.fl-r {
+  float: right;
+}
+/* DEBUG */
+
+.debug {
+  background-color: rgba(255, 0 , 0, .3);
+  border: 1px solid black;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.h600 {
+  height: 600px;
+}

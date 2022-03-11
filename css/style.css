@@ -1,0 +1,48 @@
+/* 
+HEADER
+ */
+
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  padding: 20px 30px;
+  background-color: white;
+}
+
+
+.left {
+  height: 100%;
+
+}
+
+.f1, .f2{
+  width: 50%; 
+  line-height: 35px;
+
+}
+.f1 img {
+  float:left;
+  width: 150px;
+}
+
+.f2 nav{
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+
+/*
+ JUMBOTRON 
+ */
+
+ .jumbotron.content {
+   width: 80%;
+   height: 200px;
+   margin: 100px auto;
+ }
