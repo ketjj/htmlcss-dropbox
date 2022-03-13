@@ -4,7 +4,7 @@ body{
 
 
 .container{
-  width:70%;
+  width:65%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -29,27 +29,22 @@ body{
 .fl-rt {
   float: right;
 }
-
-.button{
-  background-color: #0061ff;
-  color: white;
+.btt {
+  text-align: center;
+  padding: 7px 0;
+  font-size: 14px;
+  display: block;
 }
-
 .btn-lt{
   margin-left: 15px;  
   padding: 5px 20px;
 }
-.btn-big {
-  padding: 5px 20px;
+.btn.big {
+  padding: 7px 30px;
 }
-
-.button:hover{
-  background-color: #0c3e8fa4;
+.btn{
+  background-color: #0061ff;
   color: white;
-}
-
-.mrg-bt20 {
-  margin-bottom: 20px;
 }
 
 
