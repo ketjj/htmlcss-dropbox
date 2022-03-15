@@ -17,43 +17,41 @@
     
   <!-- HEADER -->
     
-  <header class="clearfix">
-    
-      <div class="f1 fl-lf">
-        <a href="#">
-          <img src="img/logo-small.png" alt="Logos">
-        </a>
-       
-          <nav class="menu-left">
-            <ul>
-              <li><a class="active" href="#">Perch&#233; Dropbox?</a></li>
-              <li><a href="#">Funzioni</a></li>
-              <li><a href="#">Piani e prezzi</a></li>
-            </ul>
-          </nav>
-      </div>
+ <header class="clearfix">
 
-      <div class="f2 fl-rt">
+  <div class="f1 fl-lf">
 
-        <div class="fl-rt"><a href="#" class="btn-lt btn">Inizia</a></div>
+      <nav class="menu-left">
+        <ul>
+          <li><img src="img/logo-small.png" alt="Logos" width="150px"></li>
+          <li><a class="active" href="#">Perch&#233; Dropbox?</a></li>
+          <li><a href="#">Funzioni</a></li>
+          <li><a href="#">Piani e prezzi</a></li>
+        </ul>
+      </nav>
+  </div>
 
-          <nav class="menu-right fl-rt">
-            <ul>
-              <li class="dropdown">
-                <a class="active" href="#">Supporto</a>
-                <div class="dropdown-content">
-                 <a href="#">Centro Assistenza</a>
-                  <a href="#">Forum della community</a>
-                </div></li>
+  <div class="f2 fl-rt">
 
-              <li><a href="#">Contatta l'ufficio vendite</a></li>
-              <li><a href="#">Accedi</a></li>
-              
-              
-            </ul>
-          </nav>
-      </div>
-  
+    <div class="fl-rt"><a href="#" class="btn-lt btn">Inizia</a></div>
+
+      <nav class="menu-right fl-rt">
+        <ul>
+          <li class="dropdown">
+            <a class="active" href="#">Supporto</a>
+            <div class="dropdown-content">
+             <a href="#">Centro Assistenza</a>
+              <a href="#">Forum della community</a>
+            </div></li>
+
+          <li><a href="#">Contatta l'ufficio vendite</a></li>
+          <li><a href="#">Accedi</a></li>
+          
+          
+        </ul>
+      </nav>
+  </div>
+
   </header>
 
   <!-- /HEADER -->
@@ -91,15 +89,22 @@
 
   <!-- /JUMBOTRON -->
 
-  <main>
+ <main>
       <!-- SECTION 1 -->  
-    <section class="sections container">
-      <section class="column-box">
+  <section class="sections container">
+    <section class="column-box">
 
         <h2>Trova il piano Dropbox Buisness che fa per te</h2>
 
-        <span class="checked"> Fatturazione mensile</span>
-        <span class="unchecked">Fatturazione annuale</span>
+        <label class="radio">
+          <input type="radio" class="rbutton one" value="1" checked>
+          <span class="checked"> Fatturazione mensile</span>
+        </label>
+
+        <span class="un checked"> Fatturazione mensile</span>
+
+      
+
 
         <div class="box-cont clearfix">
       
@@ -251,11 +256,10 @@
        
       </div>         
 
-      </section>
-      <!-- /SECTION 1 -->
+    </section>
 
       <!-- SECTION 2 -->
-      <section>
+    <section>
         <div class="box-2 clearfix">
           <div class="column1 fl-lf">
             <img src="img/partner.png" alt="partner" width="100%">
@@ -269,12 +273,10 @@
 
           </div>
         </div>
-      </section>
-
-      <!-- /SECTION 2 -->
+    </section>
 
       <!-- SECTION 3 -->
-      <section class="section-3">
+    <section class="section-3">
         <h2>Esegui più operazioni con Dropbox Buisness </h2>
         <div class="section3 clearfix">
           <div class="boxx">
@@ -314,19 +316,18 @@
           </div>
         </div>
 
-      </section>
-      <!--/ SECTION 3 -->
+    </section>
 
       <!-- SECTION 4 -->
-      <div class="section-4">
+    <div class="section-4">
         <h2>Pi&#249; di 500.000 team <br> utilizzano Dropbox Business</h2>
 
         <a href="#">Scopri di più sui nostri clienti</a>
-      </div>
-    </section>
+    </div>
+  </section>
       <!-- /SECTION 4 -->
 
-      <!-- SECTION 5 Partners -->
+    <!-- SECTION 5 Partners -->
 
     <div class="partners">
       <div class="upper-row clearfix">
@@ -401,11 +402,9 @@
         </div>     
       </div>
     </div>
-
-    
+   
       <!-- SECTION 6 -->
-
-    
+  
     <section class="l-rows">
 
        <div class="box-3 container clearfix">
@@ -438,11 +437,10 @@
         </a>
           <div class="hidden-content">
              <p>Il piano Standard fornisce ai team 5 TB (5000 GB) di spazio di archiviazione e semplici strumenti di condivisione e collaborazione.  Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piano Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta <a href="#">questa pagina.</a> </p>
-            </div>
+          </div>
 
           
       </div>
-      
 
       <div class="show-content">
         <a href="#" class="domanda">
@@ -471,6 +469,7 @@
 
           
       </div>
+
       <div class="show-content">
         <a href="#" class="domanda">
           <span class="domanda-icona">Qual è la differenza tra Dropbox Standard e Dropbox Buisness Advanced?</span>
@@ -486,7 +485,7 @@
      
     </section>
     
-  </main>
+ </main>
 
 
   <footer>
@@ -555,16 +554,11 @@
       <div class="lang-footer">
         <i class="fas fa-globe-americas" style="font-size:16px"></i>
         <span class="italiano">Italiano</span>
-        
-
       </div>
 
 
     </div>
+  </footer> 
 
-  </footer>
-
-
-  
 </body>
 </html>
