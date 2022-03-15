@@ -494,36 +494,45 @@ section {
   border-bottom:  1px solid #d0d0d3;
 }
 .show-content{
+  width:100%;
   float:left;
-  padding: 30px 0 40px 0;
+  padding: 3% 2% 3% 0;
   border-bottom:  1px solid #d0d0d3;
 }
-.fa-solid.fa-angle-down{
-  float: right;
-  padding: 36px 16px;
+
+.domanda-icona{
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.fa-solid.fa-angle-down:hover{
-  transform: rotate(180deg);
+.fa-solid.fa-angle-down{
+  float: right;
 }
-.show-content h4:hover .hidden-content{
-  display: block;
+
+.fa-solid.fa-angle-up{
+  display: none;
 }
 
 .hidden-content {
-  display: none;
-  height: 200px;
-  padding: 20px 0;
+  overflow: hidden;
+  max-height: 0;
+  width: 90%;
   color:#637381;
-  text-align: justify;
-  padding-right:15px;
 }
 
 .hidden-content a{
   text-decoration: underline;
   color: black;
 }
+.show-content:hover .hidden-content{
+  max-height: fit-content;
+  margin-top: 20px;
+}
 
+.show-content:hover .risposta i{
+  transform: rotate(180deg);
+  transition: all .3s;
+}
 
 /* FOOTER */
 
@@ -544,7 +553,7 @@ footer{
   width: calc(100% / 5);
   height: 250px;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .footer-column.five{
  position:absolute;
