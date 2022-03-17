@@ -18,7 +18,6 @@ nav ul li {
 
 nav ul li a{
   display: inline-block;
-  vertical-align: middle;
 }
 
 .f1, .f2{
@@ -51,6 +50,7 @@ nav ul li a:hover{
 .dropdown-content {
   display: none;
   position: absolute;
+  top:75px;
   background-color: #f9f9f9;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -85,12 +85,12 @@ nav ul li a:hover{
  }
 
  .jumbotron.content h1{
+   float: left;
   font-size: 70px;
-  margin-bottom: 50px; 
+  margin-bottom: 60px;
+
 }
-.jumbo-box{
-  margin: 80px 0 20px 0;
-}
+
 .jumbo-text p{
   margin-bottom: 35px;
   line-height: 22px;
@@ -99,15 +99,19 @@ nav ul li a:hover{
 }
 .jumbo-text{
   width:35%;
+  display: inline-block;
 }
 .jumbo-text .btn-big{
   width: 60%;
 }
 
 .jumbo-text2{
-  width:40%;
+  width:64%;
+  float:left;
 }
-
+.jumbo-text2 img{
+  width: 100%;
+}
 .jumbo-text span{
   display: block;
   font-size: 16px;
@@ -188,7 +192,8 @@ section > h2{
 }
 
 .col-content li i{
-  margin-right: 5px;
+  margin-left: -10px ;
+  margin-right:10px;
 }
 
 .col-content ul{
@@ -255,11 +260,9 @@ section {
 .column1 {
   width: 60%;
   padding-right: 3%;
-  display: inline-block;
 }
 .column2 {
   width: 35%;
-  display: inline-block;
   padding-top:35px;
   margin-left: 20px;
 }
@@ -333,26 +336,28 @@ section {
 
 /* SECTIONE 5 */
 
-.square {
-  display: inline-block;
-}
+
 .middle.square {
-  width: calc(100% - 800px);
-  height: 400px;
-  padding: 50px 40px;
   float: left;
+  width: calc(100% - 60vw);
+  height: 30vw;
+  padding: 50px;
   overflow: auto;
   background-color: #f5f5f5;
 }
-.aside.square {
-  width: 400px;
+.aside.square{
+  width: 30vw;
+  height: 30vw;
   float: left;
+  line-height: 14vw;
 }
+
 .cube {
   position: relative;
   float:left;
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
+  text-align:center;
 }
 .cube:hover{
   cursor: pointer;
@@ -361,43 +366,18 @@ section {
 
 /* LOGOS */
 
-.cube svg {
+.cube img {
+  width:60%;
   filter: invert(1);
-}
-.logo-partners {
-  position: absolute;
-  top:0;
-  right:0;
-}
-.svg-1 {
-  transform: translate(-36%, 170%);
-}
-.svg-2 { 
-  transform: translate(-28%, 55%);
-}
-.svg-3{
-  transform: translate(33%, 100%);
-  width: 250px;
-}
-.svg-4{
-  transform: translate(-32%, 109%);
+  vertical-align: middle;
 }
 
-
-.svg-5{
-  transform:  translate(25%, 200%);
-}
-.svg-6{
-  transform:  translate(23%, 450%);
-}
-.svg-7{
-  transform:  translate(21%, 109%);
-}
-.svg-8{
-  transform:  translate(21%, 73%);
+.svg-2 img{ 
+  width:12vw;
+  padding-left: 40px;
 }
 
-/* /LOGOS */
+/* /LOGO COLORS */
 
 .cit{
   margin: 30px 0;
@@ -551,7 +531,6 @@ footer{
   width: calc(100% / 5);
   height: 250px;
   display: inline-block;
-  margin-right: 50px;
 }
 .footer-column.five{
  position:absolute;

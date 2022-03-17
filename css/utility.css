@@ -21,7 +21,6 @@ body{
   text-align: center;
 }
 
-
 .fl-lf {
   float: left;
 }
@@ -29,6 +28,7 @@ body{
 .fl-rt {
   float: right;
 }
+
 .btt {
   text-align: center;
   padding: 7px 0;
